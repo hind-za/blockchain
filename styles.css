@@ -1,0 +1,8 @@
+/* Utilisation de Tailwind CSS directement depuis un CDN pour les styles généraux */
+@import url('https://cdn.tailwindcss.com');
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Vous pouvez personnaliser ici avec Tailwind pour des styles spécifiques si besoin */
