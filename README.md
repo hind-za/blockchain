@@ -1,64 +1,59 @@
-# ⛓️ Blockchain Sécurisée – Visualizer
+# ⛓️ blockcahin – Blockchain Visualizer
 
-Un **visualiseur de blockchain pédagogique** développé en **JavaScript vanilla** avec **SHA-256** et **Proof of Work**, permettant de comprendre le fonctionnement interne d’une blockchain, le minage, la validation et l’impact d’une attaque.
-
-👉 Projet réalisé dans un cadre **académique / éducatif**.
+Un **visualiseur de blockchain pédagogique** développé en **JavaScript vanilla**, basé sur **SHA-256** et le **Proof of Work (PoW)**.  
+Ce projet permet de comprendre le fonctionnement interne d’une blockchain, le minage des blocs, la validation de la chaîne et l’impact d’une attaque.
 
 ---
 
 ## 🎯 Objectifs du projet
 
-- Comprendre le fonctionnement d’une **blockchain**
+- Comprendre le principe de la **blockchain**
 - Implémenter :
   - Le **hachage SHA-256**
-  - Le **Proof of Work (PoW)**
-  - Le **chaînage des blocs**
-- Visualiser :
-  - Le minage
-  - La validation de la chaîne
-  - L’impact d’une **modification malveillante** (attaque)
+  - Le **Proof of Work**
+  - Le **chaînage sécurisé des blocs**
+- Visualiser l’effet d’une **modification malveillante** sur la chaîne
 
 ---
 
 ## ⚙️ Technologies utilisées
 
 - **HTML5**
-- **Tailwind CSS** (via CDN)
+- **Tailwind CSS** (CDN)
 - **JavaScript Vanilla**
 - **Web Crypto API** (SHA-256)
 
-➡️ Aucune dépendance externe, aucun framework.
+✔️ Aucune dépendance externe  
+✔️ Aucun framework JavaScript
 
 ---
 
-## 🧱 Fonctionnalités principales
+## 🧱 Fonctionnalités
 
-- ⛏️ **Minage de blocs** avec Proof of Work
-- 🔐 **Hash SHA-256** pour chaque bloc
-- 🔗 **Chaînage sécurisé** entre les blocs
-- ✅ **Validation de l’intégrité** de la blockchain
-- ⚠️ **Simulation d’attaque** (modification d’un bloc)
+- ⛏️ Minage de blocs avec Proof of Work
+- 🔐 Génération de hash SHA-256
+- 🔗 Chaînage automatique des blocs
+- ✅ Validation de l’intégrité de la blockchain
+- ⚠️ Simulation d’attaque (altération d’un bloc)
 - 🚫 Blocage du minage si la chaîne est compromise
-- 📊 Visualisation claire de l’état des blocs (valide / compromis)
+- 👁️ Visualisation claire des blocs valides et compromis
 
 ---
 
-## 🖥️ Aperçu du fonctionnement
+## 🖥️ Démonstration
 
-1. Entrer des données dans le champ prévu
-2. Choisir une difficulté (avant le premier bloc)
+1. Entrer des données
+2. Choisir la difficulté (avant le premier bloc)
 3. Miner un bloc
 4. Ajouter plusieurs blocs
 5. Valider la chaîne
-6. Simuler une attaque en modifiant un bloc
-7. Observer la rupture de la chaîne 🔴
+6. Simuler une attaque
+7. Observer la rupture de la blockchain 🔴
 
 ---
 
 ## 🚀 Lancer le projet
 
-Aucune installation requise.
-
 ```bash
-git clone https://github.com/hind-za/blockchain.git
-cd blockchain
+git clone https://github.com/hind-za/blockcahin.git
+cd blockcahin
