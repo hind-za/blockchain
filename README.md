@@ -60,5 +60,5 @@ Un **visualiseur de blockchain pédagogique** développé en **JavaScript vanill
 Aucune installation requise.
 
 ```bash
-git clone https://github.com/TON_USERNAME/blockchain-visualizer.git
-cd blockchain-visualizer
+git clone https://github.com/hind-za/blockchain.git
+cd blockchain
